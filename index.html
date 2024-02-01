@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Pro">
+    <style>
+        body {
+            background: url(lambo.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bga{
+            background-color: black;width: 100%;height: 80px;
+        }
+
+        .logo {
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 2px;
+        }
+        ul{
+          position: absolute; 
+          margin-left: 50px;
+        }
+        .ul li{
+            float: left;list-style-type: none;padding: 10px;color: bisque;font-weight: bolder;text-shadow: 2px 2px 4px rgba(122, 255, 235, 0.5);
+        }
+        .ul li{
+            transition: transform 0.5s;
+        }
+        .ul li:hover{
+            background-color: rgb(11, 11, 239);
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        .l{
+          position: absolute; 
+          margin-left: 1400px;
+        }
+        .l li{
+            float: left;list-style-type: none;padding: 10px;color: bisque;
+            font-weight: bolder;text-shadow: 2px 2px 4px rgba(122, 255, 235, 0.5);
+        }
+        .l li{
+            transition: transform 0.5s;
+        }
+        .l li:hover{
+            background-color: rgb(11, 11, 239);
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    .head h1{
+        color: white;
+       font-size: 90px;
+        font-weight: bolder;
+    }
+    .head h4{
+        margin-left: 20px;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+    }
+    .head h4
+    {
+        margin-top: 300px;
+margin-left: 100px;font-family: 'Crimson pro' serif;text-shadow: 4px 4px 15px rgb(187, 187, 246);
+    }
+   .head h1{
+    margin-top: 30px;
+    margin-left: 100px;text-shadow: 4px 4px 15px rgb(187, 187, 246);
+   }
+
+   @media only screen and (max-width: 768px) {
+            .menu,
+            .menu1 {
+                display: block; /* Show menu on smaller screens */
+            }
+
+            .ul {
+                margin-left: 0;
+            }
+
+            .l {
+                display: none; /* Hide the second menu on smaller screens */
+            }
+
+            .head h1 {
+                font-size: 7vw; /* Increase font size for smaller screens */
+            }
+
+            .head h4 {
+                font-size: 3vw; /* Increase font size for smaller screens */
+                margin-left: 5%;
+                margin-top: 5%;
+            }
+
+            .logo img {
+                width: 80px; /* Adjust logo size for smaller screens */
+            }
+        }   
+    </style>
+</head>
+
+<body>
+
+
+    <div class="logo">
+        <img src="Lamborghini-Logo.png" width="100px" height="50px">
+    </div><div class="menu">
+        <ul class="ul">
+            <li>MODELS</li>
+            <li>BEYOND</li>
+            <li>OWNERSHIP</li>
+            <li>MOTORSPOT</li>
+        </ul>
+    </div>
+    
+        
+        
+    </div><div class="menu1">
+        <ul class="l">
+            <li>DEALERSHIP</li>
+            <li>MUSEM</li>
+            <li>OURSTORES</li>
+            <li><i class="fa fa-comments-o" aria-hidden="true"></i></li>
+            <li><i class="fa fa-search" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+    <div class="bga"></div>
+    <div class="head" >
+        <h4>DESGINED BY NEW DESIRES</h4>
+        <h1>LAMBORGHINI </h1>
+    </div>
+</body>
+
+</html>
